@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>人民社区</title>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=iyUj8juV15MB8qGwiM6BfwebPs3cUMOm"></script>
+    <!-- <script src="//cdn.bootcss.com/vue/2.2.5/vue.min.js"></script>
+    <script src="//cdn.bootcss.com/vue-router/2.3.0/vue-router.min.js"></script>
+    <script src="//cdn.bootcss.com/vuex/2.2.1/vuex.min.js"></script>
+    <script src="//cdn.bootcss.com/axios/0.15.3/axios.min.js"></script> -->
+</head>
+
+<body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+</body>
+<!-- <script src="./static/tinymce4.7.5/tinymce.min.js"> -->
+<!-- </script> -->
+<!-- <script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script> -->
+<script src="./static/tinymce4.7.5/tinymce.min.js"></script>
+<script>
+    function getResponse(resp) {
+        // console.log(resp)
+        localStorage.setItem("veria", resp);
+        // $.post('http://api.sqydt.easysq.cn/public/luosimaoCaptchaCheck', {
+        //     resp: resp
+        // }, function(rst) {
+        //     console.log('dnelgu', resp);
+        //     if (2000 == rst.code) {
+        //         // alert('验证通过');
+        //         localStorage.setItem('veria', resp)
+        //     } else {
+        //         // alert('验证失败');
+        //         LUOCAPTCHA.reset(); // 刷新验证码
+        //     }
+        // });
+    }
+</script>
+<script>
+    window.onbeforeunload = function() {
+        localStorage.removeItem("veria");
+    };
+</script>
+
+</html>

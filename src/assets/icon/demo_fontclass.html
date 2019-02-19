@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>IconFont</title>
+    <link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="iconfont.css">
+</head>
+
+<body>
+    <div class="main markdown">
+        <h1>IconFont 图标</h1>
+        <ul class="icon_lists clear">
+
+            <li>
+                <i class="icon iconfont wx-manage-shipin1"></i>
+                <div class="name">视频</div>
+                <div class="fontclass">.wx-manage-shipin1</div>
+            </li>
+
+            <li>
+                <i class="icon iconfont wx-manage-app-audio"></i>
+                <div class="name">音频</div>
+                <div class="fontclass">.wx-manage-app-audio</div>
+            </li>
+
+            <li>
+                <i class="icon iconfont wx-manage-tianjia"></i>
+                <div class="name">添加</div>
+                <div class="fontclass">.wx-manage-tianjia</div>
+            </li>
+
+            <li>
+                <i class="icon iconfont wx-manage-shipin"></i>
+                <div class="name">视频</div>
+                <div class="fontclass">.wx-manage-shipin</div>
+            </li>
+
+            <li>
+                <i class="icon iconfont wx-manage-yinpin"></i>
+                <div class="name">音频</div>
+                <div class="fontclass">.wx-manage-yinpin</div>
+            </li>
+
+            <li>
+                <i class="icon iconfont wx-manage-qingkongwendang"></i>
+                <div class="name">清空文档</div>
+                <div class="fontclass">.wx-manage-qingkongwendang</div>
+            </li>
+
+            <li>
+                <i class="icon iconfont wx-manage-jiantou"></i>
+                <div class="name">箭头</div>
+                <div class="fontclass">.wx-manage-jiantou</div>
+            </li>
+
+            <li>
+                <i class="icon iconfont wx-manage-jiantou1"></i>
+                <div class="name">箭头</div>
+                <div class="fontclass">.wx-manage-jiantou1</div>
+            </li>
+
+            <li>
+                <i class="icon iconfont wx-manage-paiban"></i>
+                <div class="name">任务列表_排版</div>
+                <div class="fontclass">.wx-manage-paiban</div>
+            </li>
+
+            <li>
+                <i class="icon iconfont wx-manage-shipin4"></i>
+                <div class="name">视频</div>
+                <div class="fontclass">.wx-manage-shipin4</div>
+            </li>
+
+            <li>
+                <i class="icon iconfont wx-manage-bianji"></i>
+                <div class="name">编辑</div>
+                <div class="fontclass">.wx-manage-bianji</div>
+            </li>
+
+            <li>
+                <i class="icon iconfont wx-manage-wenziICON"></i>
+                <div class="name">文字</div>
+                <div class="fontclass">.wx-manage-wenziICON</div>
+            </li>
+
+            <li>
+                <i class="icon iconfont wx-manage-bofang"></i>
+                <div class="name">播放</div>
+                <div class="fontclass">.wx-manage-bofang</div>
+            </li>
+
+            <li>
+                <i class="icon iconfont wx-manage-audio"></i>
+                <div class="name">音频</div>
+                <div class="fontclass">.wx-manage-audio</div>
+            </li>
+
+            <li>
+                <i class="icon iconfont wx-manage-xuanzhong"></i>
+                <div class="name">选中</div>
+                <div class="fontclass">.wx-manage-xuanzhong</div>
+            </li>
+
+            <li>
+                <i class="icon iconfont wx-manage-tupian"></i>
+                <div class="name">图片</div>
+                <div class="fontclass">.wx-manage-tupian</div>
+            </li>
+
+            <li>
+                <i class="icon iconfont wx-manage-delete"></i>
+                <div class="name">删 除</div>
+                <div class="fontclass">.wx-manage-delete</div>
+            </li>
+
+            <li>
+                <i class="icon iconfont wx-manage-shipin2"></i>
+                <div class="name">视频</div>
+                <div class="fontclass">.wx-manage-shipin2</div>
+            </li>
+
+            <li>
+                <i class="icon iconfont wx-manage-tuwenpaiban"></i>
+                <div class="name">图文排版</div>
+                <div class="fontclass">.wx-manage-tuwenpaiban</div>
+            </li>
+
+            <li>
+                <i class="icon iconfont wx-manage-azhuanzai"></i>
+                <div class="name">a转载</div>
+                <div class="fontclass">.wx-manage-azhuanzai</div>
+            </li>
+
+            <li>
+                <i class="icon iconfont wx-manage-paiban1"></i>
+                <div class="name">排版</div>
+                <div class="fontclass">.wx-manage-paiban1</div>
+            </li>
+
+        </ul>
+
+        <h2 id="font-class-">font-class引用</h2>
+        <hr>
+
+        <p>font-class是unicode使用方式的一种变种，主要是解决unicode书写不直观，语意不明确的问题。</p>
+        <p>与unicode使用方式相比，具有如下特点：</p>
+        <ul>
+            <li>兼容性良好，支持ie8+，及所有现代浏览器。</li>
+            <li>相比于unicode语意明确，书写更直观。可以很容易分辨这个icon是什么。</li>
+            <li>因为使用class来定义图标，所以当要替换图标时，只需要修改class里面的unicode引用。</li>
+            <li>不过因为本质上还是使用的字体，所以多色图标还是不支持的。</li>
+        </ul>
+        <p>使用步骤如下：</p>
+        <h3 id="-fontclass-">第一步：引入项目下面生成的fontclass代码：</h3>
+
+
+        <pre><code class="lang-js hljs javascript"><span class="hljs-comment">&lt;link rel="stylesheet" type="text/css" href="./iconfont.css"&gt;</span></code></pre>
+        <h3 id="-">第二步：挑选相应图标并获取类名，应用于页面：</h3>
+        <pre><code class="lang-css hljs">&lt;<span class="hljs-selector-tag">i</span> <span class="hljs-selector-tag">class</span>="<span class="hljs-selector-tag">iconfont</span> <span class="hljs-selector-tag">wx-manage-xxx</span>"&gt;&lt;/<span class="hljs-selector-tag">i</span>&gt;</code></pre>
+        <blockquote>
+            <p>"iconfont"是你项目下的font-family。可以通过编辑项目查看，默认是"iconfont"。</p>
+        </blockquote>
+    </div>
+</body>
+
+</html>

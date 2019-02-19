@@ -1,0 +1,126 @@
+    .question_content {
+        cursor: pointer;
+        color: #409eff;
+    }
+    
+    .el-icon-wrapper {
+        font-size: 20px;
+        color: #409eff;
+    }
+    
+    .detail-wrapper h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    .detail-wrapper p {
+        font-size: 16px;
+    }
+    
+    .info-container {
+        margin: 30px 15px;
+        font-size: 14px;
+    }
+    
+    .box-card {
+        margin-bottom: 30px;
+    }
+    
+    .search {
+        width: 30%;
+        display: flex;
+        margin-right: 2%;
+        align-items: center;
+    }
+    
+    .table-list {
+        margin: 10px 0;
+    }
+    
+    .icon-font {
+        font-size: 16px;
+    }
+    
+    .table-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px 0;
+    }
+    
+    .label-choose {
+        list-style: none;
+        cursor: pointer;
+    }
+    
+    .table-footer {
+        margin-top: 30px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .el-tag+.el-tag {
+        margin-right: 10px;
+    }
+    
+    .button-new-tag {
+        margin-right: 10px;
+        height: 32px;
+        line-height: 30px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    
+    .input-new-tag {
+        width: 90px;
+        margin-right: 10px;
+        vertical-align: bottom;
+    }
+    
+    .switch-btn {
+        position: relative;
+        width: 70px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        border: 1px #dcdfe6 solid;
+        outline: none;
+        border-radius: 5px;
+        background: #fff;
+        top: 2px;
+        cursor: pointer;
+    }
+    
+    .active {
+        background: #409eff;
+        color: #fff;
+    }
+    
+    .active:hover {
+        opacity: 0.8;
+    }
+    
+    .demo-table-expand {
+        font-size: 0;
+    }
+    
+    .demo-table-expand label {
+        width: 90px;
+        color: #99a9bf;
+    }
+    
+    .demo-table-expand .el-form-item {
+        margin-right: 0;
+        margin-bottom: 0;
+        width: 50%;
+    }
+    
+    .table-title-rigth {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .title-rigth-add {
+        margin-right: 10px;
+    }
